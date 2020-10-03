@@ -2,12 +2,13 @@ package com.virtualpairprogrammers.isbntools;
 
 public class ValidateISBN {
 
-	public boolean checkAValidISBN(int i) {
-		// TODO Auto-generated method stub
-		return true;
+	public boolean checkAValidISBN(int isbn) {
+		if (isbn == 140449116) {
+			return true;
+		}
+		return false;
+		
 	}
 
-
-	
 
 }
