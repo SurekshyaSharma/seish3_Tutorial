@@ -8,8 +8,11 @@ public class ValidateISBNTest {
 
 	@Test
 	public void checkAValidISBN() {
-		fail("Not yet implemented");
+		ValidateISBN validator= new ValidateISBN();
+		boolean result = validator.checkAValidISBN(140449116);
 	}
+
+	
 	
 
 
