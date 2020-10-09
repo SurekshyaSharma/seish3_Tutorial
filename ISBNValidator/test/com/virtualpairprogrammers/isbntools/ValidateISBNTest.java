@@ -11,6 +11,7 @@ public class ValidateISBNTest {
 		ValidateISBN validator= new ValidateISBN();
 		boolean result = validator.checkAValidISBN("0140449116");
 		assertTrue("1st",result);
+// 		Checking the second number
 		result=validator.checkAValidISBN("0140177396");
 		assertTrue("2nd",result);
 	}
